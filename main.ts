@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
-const JOKE = "My son asked me what a dad joke is. I said, 'Hi, What-A-Dad-Joke-Is. I'm Dad.'";
-// One joke, told out loud: the classic "Hi X, I'm Dad" turn, aimed at the groan.
+const JOKE = "I brought a ladder to the bar because I heard the drinks were on the house.";
+// A proper dad joke: clean pun, lands on the last words, reads aloud in one breath.
 
 const outDir = process.env.OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
